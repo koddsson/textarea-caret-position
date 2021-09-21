@@ -7,11 +7,19 @@
   "files": [
     "index.js"
   ],
+  "type": "module",
   "main": "index.js",
+  "module": "index.js",
   "license": "MIT",
   "keywords": [
     "textarea",
     "caret",
     "position"
-  ]
+  ],
+  "prettier": "@github/prettier-config",
+  "devDependencies": {
+    "@github/prettier-config": "^0.0.4",
+    "eslint": "^7.32.0",
+    "eslint-plugin-github": "^4.3.0"
+  }
 }
